@@ -1,0 +1,16 @@
+{
+  "name": "digital-receipt-book",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "test:core": "node --test tests/parser.test.mjs tests/database.test.mjs tests/processor.test.mjs tests/native-tools.contract.test.mjs",
+    "demo": "node scripts/demo.mjs",
+    "check": "npm test && npm run demo",
+    "preflight": "node scripts/preflight.mjs"
+  }
+}
