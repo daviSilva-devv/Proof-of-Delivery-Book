@@ -1,0 +1,10 @@
+node_modules/
+runtime/
+*.db
+*.db-wal
+*.db-shm
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
